@@ -1,4 +1,4 @@
-# ScrapPaper-Abstract-Fetcher
+<img width="105" height="29" alt="image" src="https://github.com/user-attachments/assets/5b8c62a8-45a1-4ccc-af21-e2608d51cb8e" /># ScrapPaper-Abstract-Fetcher
 
 A lightweight Python script that reads [ScrapPaper](https://github.com/rafsanlab/ScrapPaper) CSV output and automatically fetches the abstract of each paper, saving each abstract as an individual `.txt` file named after the paper title.
 
@@ -28,11 +28,11 @@ This script depends on the CSV output produced by [ScrapPaper](https://github.co
 
 The expected CSV format (produced by ScrapPaper) is:
 
-| Column      | Description                        |
-|-------------|------------------------------------|
-| `标题`      | Paper title (used as output filename) |
-| `链接`      | URL to the paper page              |
-| `reference` | Citation information               |
+| Column      | Description                           |
+|-------------|---------------------------------------|
+| `Title`     | Paper title (used as output filename) |
+| `Links`     | URL to the paper page                 |  
+| `References`| Citation information                  |
 
 ### Step 2 — Install dependencies
 
